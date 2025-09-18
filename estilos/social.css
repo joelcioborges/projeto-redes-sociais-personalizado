@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(218, 215, 215);
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    background-color: red;
+}
+
+Esconde a Barra de Rolagem lateral
+::-wedkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

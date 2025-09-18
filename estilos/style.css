@@ -37,13 +37,14 @@ iframe#tela {
     top: 80px; 
     left: 22px;
     width: 267px;
-    height: 471px;
-    /* background-color: blue; */
+    height: 471px;    
 }
 
 section#redes-sociais {
     text-align: right;
-    transform: translateY(30%);
+    /* aconfiguração abaixo CAUSA PROBLEMA DE NAVEGAÇÃO */
+    /* CUIDADO AO USAR */
+    /* transform: translateY(30%); */
 }
 
 .botao-efeito {
