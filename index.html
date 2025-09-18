@@ -3,14 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
     <title> Redes Sociais </title>
 </head>
 <body>
-    <p>
-        Olá! Mundo.        
-    </p>
-    <p>
-        teste
-    </p>
+    <main>
+
+        <section id="telefone">
+            <iframe name="tela" id="tela" frameborder="0"
+                srcdoc="
+                    <img 
+                        style='
+                        display: block;
+                        margin: auto;
+                        width: 150px;
+                        height: 150px;
+                        margin-top: 150px;
+                        '
+                        src='imagens/cursoemvideo.png' alt='Curso em Video'
+                    >                    
+                "                               
+            >
+
+            Seu dispositivo não é compatível com iframe 
+
+            </iframe>
+        
+        </section>
+
+        <section id="redes-sociais">
+            <a href="paginas-tela/home.html" target="tela" rel="self">
+                <img class="botao-efeito" src="imagens/logo-home.jpg" src="imagens/logo-home.jpg"
+                    onmouseover="this.src='imagens/Home-Icon.gif'"
+                    onmouseout="this.src='imagens/logo-home.jpg'" alt="Home">
+            </a>
+            <br>
+            <img class="botao-efeito" src="imagens/logo-youtube.jpg" alt="Youtube">
+            <br>
+            <img class="botao-efeito" src="imagens/logo-github.jpg" alt="Github">
+            <br>
+            <img class="botao-efeito" src="imagens/logo-instagram.jpg" alt="Instagram">
+            <br>
+            <img class="botao-efeito" src="imagens/logo-twitter.jpg" alt="Rede x">
+            <br>
+            <img class="botao-efeito" src="imagens/logo-facebook.jpg" alt="Facebook">
+        </section>
+    </main>
 </body>
 </html>
